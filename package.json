@@ -1,0 +1,25 @@
+{
+  "name": "cowf",
+  "version": "1.0.0",
+  "description": "A obscure syntax for data.",
+  "main": "script.js",
+  "scripts": {
+    "test": "tsup src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@spcfork/cowf"
+  },
+  "keywords": [
+    "lang"
+  ],
+  "author": "SpcFORK",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

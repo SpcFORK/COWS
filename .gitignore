@@ -1,0 +1,16 @@
+# Node modules and build directories
+dist/
+node_modules/
+
+# Environment variables and local files
+.env
+.local
+
+# Editor directories and files
+.idea/
+*.sublime-workspace
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
