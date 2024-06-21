@@ -16,10 +16,11 @@
   "author": "SpcFORK",
   "license": "MIT",
   "devDependencies": {
-    "tsup": "^8.0.1",
+    "@types/node": "^20.14.6",
+    "tsup": "^8.1.0",
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.19.2"
   }
 }

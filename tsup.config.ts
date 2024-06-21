@@ -5,8 +5,9 @@ export default defineConfig({
   splitting: false,
   sourcemap: false,
   clean: true,
-  platform: 'neutral',
+  platform: 'node',
   outDir: 'public/dist',
-  dts: true,
-  format: ['cjs', 'esm', 'iife']
+  format: ['cjs', 'esm', 'iife'],
+  cjsInterop: true,
+  dts: false
 })

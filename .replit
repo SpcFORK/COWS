@@ -30,3 +30,7 @@ requiredFiles = [".replit", "replit.nix", ".config"]
 run = ["tsx", "index.ts"]
 deploymentTarget = "cloudrun"
 ignorePorts = false
+
+[[ports]]
+localPort = 3000
+externalPort = 80
